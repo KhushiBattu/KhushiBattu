@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06070a"/>
+      <stop offset=".52" stop-color="#0b0f16"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset=".52" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#a7f3d0"/>
+    </linearGradient>
+    <radialGradient id="violet">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyan">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+  </defs>
+
+  <rect width="1280" height="380" rx="26" fill="url(#bg)"/>
+
+  <!-- restrained ambient glow -->
+  <circle cx="1010" cy="95" r="230" fill="url(#violet)" filter="url(#blur)"/>
+  <circle cx="1160" cy="285" r="210" fill="url(#cyan)" filter="url(#blur)"/>
+
+  <!-- subtle engineering grid -->
+  <g opacity=".055" stroke="#e2e8f0" stroke-width="1">
+    <path d="M0 76H1280M0 152H1280M0 228H1280M0 304H1280"/>
+    <path d="M80 0V380M160 0V380M240 0V380M320 0V380M400 0V380M480 0V380M560 0V380M640 0V380M720 0V380M800 0V380M880 0V380M960 0V380M1040 0V380M1120 0V380M1200 0V380"/>
+  </g>
+
+  <!-- abstract AI/data network -->
+  <g fill="none" stroke="url(#line)" stroke-width="1.5" opacity=".48">
+    <path d="M790 75 L875 45 L960 90 L1040 48 L1135 92 L1215 58"/>
+    <path d="M790 75 L835 155 L925 135 L960 90"/>
+    <path d="M875 45 L925 135 L1010 182 L1040 48"/>
+    <path d="M960 90 L1010 182 L1135 92"/>
+    <path d="M835 155 L805 245 L910 300 L1010 182"/>
+    <path d="M925 135 L910 300 L1085 260 L1135 92"/>
+    <path d="M1010 182 L1085 260 L1215 58"/>
+  </g>
+
+  <g fill="#dbeafe">
+    <circle cx="790" cy="75" r="3"/>
+    <circle cx="875" cy="45" r="3.5"/>
+    <circle cx="960" cy="90" r="3"/>
+    <circle cx="1040" cy="48" r="3"/>
+    <circle cx="1135" cy="92" r="3.5"/>
+    <circle cx="1215" cy="58" r="3"/>
+    <circle cx="835" cy="155" r="3"/>
+    <circle cx="925" cy="135" r="3.5"/>
+    <circle cx="1010" cy="182" r="3"/>
+    <circle cx="805" cy="245" r="3"/>
+    <circle cx="910" cy="300" r="3.5"/>
+    <circle cx="1085" cy="260" r="3"/>
+  </g>
+
+  <!-- identity tag -->
+  <rect x="72" y="55" width="205" height="32" rx="16" fill="#ffffff" fill-opacity=".035" stroke="#ffffff" stroke-opacity=".12"/>
+  <circle cx="91" cy="71" r="3.5" fill="#67e8f9"/>
+  <text x="105" y="76" fill="#cbd5e1" font-family="monospace" font-size="11" letter-spacing="1.8">COMPUTER SCIENCE · AI/ML</text>
+
+  <!-- name -->
+  <text x="72" y="150" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">KHUSHI BATTU</text>
+
+  <!-- positioning -->
+  <text x="75" y="188" fill="#a78bfa" font-family="monospace" font-size="14" letter-spacing="2.4">BUILDING TOWARD REAL-WORLD AI</text>
+
+  <rect x="74" y="210" width="360" height="1" fill="url(#line)" opacity=".72"/>
+
+  <text x="74" y="244" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="20">Building intelligent systems while growing</text>
+  <text x="74" y="272" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="17">from fundamentals to real-world AI.</text>
+
+  <!-- real identity metadata -->
+  <g font-family="monospace" font-size="11" fill="#94a3b8">
+    <text x="74" y="316">B.TECH CSE @ MODY UNIVERSITY</text>
+    <text x="74" y="338">AI/ML · DATA · SOFTWARE · DSA</text>
+  </g>
+
+  <!-- restrained accent markers -->
+  <g opacity=".85">
+    <rect x="1120" y="320" width="30" height="2" fill="#a78bfa"/>
+    <rect x="1158" y="320" width="18" height="2" fill="#67e8f9"/>
+    <rect x="1184" y="320" width="10" height="2" fill="#a7f3d0"/>
+  </g>
+</svg>
